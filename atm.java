@@ -1,10 +1,39 @@
 import java.util.Scanner;
 public class atm {
+     int accpin;
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("ATM MACHINE PROJECT");
+        System.out.println("WELCOME TO ATM");
+        System.out.println("PLEASE ENTER YOUR 4 DIGIT PIN");
+        accpin = sc.nextInt();
+        System.out.println("YOUR PIN ="+accpin);
+
+
+    }
+    void ATZpin()
+    {
+        
+        Scanner sc = new Scanner(System.in);
+        System.out.println("PLEASE ENTER THE PIN");
+        int pin =sc.nextInt();
+        if(pin==accpin)
+        {
+            System.out.println("PIN VERIFIED");
+        }
+        else
+        {
+            System.out.println("INVALID PIN");
+            System.out.println("PLEASE ENTER THE CORRECT PIN");
+            ATZpin();
+        }
+    }
     public static void main(String [] args)
     {
+        atm obj=new atm();
         Scanner s =new Scanner(System.in);
         int balance, withdraw, deposit;
-        System.out.println("Welcome to the ATM Machine");
+        obj.ATZpin();
         System.out.print("Enter your initial balance: ");
         balance=s.nextInt();
         while(true)
@@ -19,6 +48,7 @@ public class atm {
             switch(choice)
             {
                 case 1:
+                //obj.ATZpin();
                     System.out.print("Enter amount to withdraw: ");
                     withdraw=s.nextInt();
                     if(withdraw>balance)
@@ -32,15 +62,18 @@ public class atm {
                     }
                     break;
                 case 2:
+                //obj.ATZpin();
                     System.out.print("Enter amount to deposit: ");
                     deposit=s.nextInt();
                     balance+=deposit;
                     System.out.println("Amount deposited successfully.");
                     break;
                 case 3:
+                //obj.ATZpin();
                     System.out.println("Your current balance is: " + balance);
                     break;
                 case 4:
+                    //obj.ATZpin();
                     System.out.println("Thank you for using the ATM.");
                     System.exit(0);
                 default:
@@ -49,3 +82,4 @@ public class atm {
         }
     }
 }
+

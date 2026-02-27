@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "file_download",
+            "request": "launch",
+            "mainClass": "file_download",
+            "projectName": "java_72e8cc1b"
+        },
+        {
+            "type": "java",
+            "name": "demon",
+            "request": "launch",
+            "mainClass": "demon",
+            "projectName": "java_72e8cc1b"
+        },
+        {
+            "type": "java",
+            "name": "Demo",
+            "request": "launch",
+            "mainClass": "Demo",
+            "projectName": "java_72e8cc1b"
+        },
+        {
+            "type": "java",
+            "name": "MyThread",
+            "request": "launch",
+            "mainClass": "MyThread",
+            "projectName": "java_72e8cc1b"
+        },
+        {
+            "type": "java",
+            "name": "threadingg",
+            "request": "launch",
+            "mainClass": "threadingg",
+            "projectName": "java_72e8cc1b"
+        },
+        {
+            "type": "java",
+            "name": "Cat",
+            "request": "launch",
+            "mainClass": "Cat",
+            "projectName": "java_72e8cc1b"
+        },
+        {
+            "type": "java",
+            "name": "modifier",
+            "request": "launch",
+            "mainClass": "modifier",
+            "projectName": "java_72e8cc1b"
+        },
+        {
+            "type": "java",
+            "name": "getfact",
+            "request": "launch",
+            "mainClass": "getfact",
+            "projectName": "java_72e8cc1b"
+        },
+        {
+            "type": "java",
             "name": "test",
             "request": "launch",
             "mainClass": "test",

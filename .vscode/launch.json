@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "file",
+            "request": "launch",
+            "mainClass": "file",
+            "projectName": "java_72e8cc1b"
+        },
+        {
+            "type": "java",
+            "name": "fil",
+            "request": "launch",
+            "mainClass": "fil",
+            "projectName": "java_72e8cc1b"
+        },
+        {
+            "type": "java",
             "name": "priority",
             "request": "launch",
             "mainClass": "priority",

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "deserializeDemo",
+            "request": "launch",
+            "mainClass": "deserializeDemo",
+            "projectName": "java_72e8cc1b"
+        },
+        {
+            "type": "java",
+            "name": "SerializeDemo",
+            "request": "launch",
+            "mainClass": "SerializeDemo",
+            "projectName": "java_72e8cc1b"
+        },
+        {
+            "type": "java",
             "name": "file",
             "request": "launch",
             "mainClass": "file",
